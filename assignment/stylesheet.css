@@ -1,13 +1,20 @@
-.background {
-  background-image: url("record.png");
-}
-
-.header {
-  background-color: dark blue;
-  color: light grey;
+header {
+  background-color: midnightblue;
+  color: lightgrey;
   text-align: center;
 }
 
-.main {
-  background-color: light grey;
+body {
+  background-image: url("record.png");
+  /* the background will auto repeat and clip
+  at the edges, but I did play with some other
+  background-repeat features:  */
+  /* background-repeat: space; */
+  /* background-repeat: repeat-x; */
+  margin: 0;
+}
+
+main {
+  background-color: lightgrey;
+  padding: 1em;
 }
